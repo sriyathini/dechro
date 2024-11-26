@@ -1,9 +1,10 @@
 import './Menubar.css';
 import { Navbar, Nav,NavDropdown } from "react-bootstrap";
 
+
 function Menubar(){
     return (
-        <div>
+        <div className='Navbar'>
             <Navbar expand="md">
                 <Navbar.Brand href="/" className='ms-5'>
                 <img
@@ -20,16 +21,14 @@ function Menubar(){
                     <NavDropdown.Item href="#action/3.2">
                         Website Development(Static & Dynamic)
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item> */}
                     </NavDropdown>
                     <NavDropdown title="Meet Dechro" id="basic-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">About Us</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">
                         Team
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item> */}
                     </NavDropdown>
-                    <Nav.Link href="#home">Write To Us</Nav.Link>
+                    <Nav.Link href="#ContactForm">Write To Us</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>
