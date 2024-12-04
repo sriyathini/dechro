@@ -39,13 +39,11 @@ function Home() {
   return (
     <div id="home" className="img-fluid top-fix">
       <div className="container">
-        <div className="content" style={{ height: '100vh' }} ref={contentRef}>
           <div className="row ps-5">
             <h1>Web and Software Development company</h1>
             <h3>Dechro, is basically the best structure to plan sites and foster web applications 
                 that suitable all business.We focus on innovation, efficiency, and excellence.</h3>
           </div>
-        </div>
       </div>
     </div>
   );

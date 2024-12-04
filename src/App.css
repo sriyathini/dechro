@@ -14,3 +14,9 @@
   body{
     font-family: 'CustomFont' !important;
   }
+
+  .main-content{
+    margin-top: 80px;
+    width: 90% !important;
+    margin-left:5%;
+  }

@@ -1,0 +1,64 @@
+#About h1{
+    text-align: center;
+    font-size: 50px !important;
+    font-weight: bold !important;
+    margin-top: 40px !important;
+}
+#About h2{
+    text-align: center;
+    font-size: 25px;
+}
+#About .row{
+    margin-top: 30px !important;
+}
+
+/* Fix Navbar Overlapping Issue */
+.main-content {
+    margin-top: 70px; /* Adjust this value based on your navbar height */
+}
+
+/* Adjust row alignment for cards */
+.row .col {
+    margin: 0 20px; /* Reduce the excessive left margin */
+    margin-left: 40px !important;  
+}
+/* Add spacing between cards */
+#About .row {
+    margin-top: 30px;
+    gap: 20px; /* Ensure space between columns */
+}
+#About .title{
+    font-size: 25px !important;
+    font-weight: bolder !important;
+}
+
+/* Add hover effect for cards */
+#About .row .col .card {
+    
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+#About .row .col:hover .card{
+    transform: scale(1.10); /* Increase size slightly */
+    background-color: rgb(100, 221, 252); ;
+}
+
+/* Ensure cards have transition effect */
+#About .row .col .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition */
+}
+
+#tsparticles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure it stays behind content */
+  }
+
+  #About .button{
+    color: white !important;
+
+  }
+  
