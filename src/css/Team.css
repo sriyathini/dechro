@@ -1,0 +1,83 @@
+/* App.css */
+.Team {
+    text-align: center;
+   height: 630px;
+  }
+  
+  .Team-header {
+    color: black;
+    font-weight: bolder;
+    margin-top: 0;
+  }
+  .Team-header h1{
+    font-size: 70px !important;
+    margin-top: 50px;
+  }
+  .Team-header p{
+    font-size: 30px; 
+  }
+  
+  .team-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member h3 {
+    margin: 10px 0;
+  }
+  
+  .team-member p {
+    color: #555;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-member:hover img {
+    transform: scale(1.1);
+  }
+/* Add smooth scroll to body */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Parallax effect */
+  .parallax {
+    /* background-image: url('background-image.jpg'); */
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: parallax 10s infinite linear;
+  }
+  
+  @keyframes parallax {
+    from {
+      background-position: 0% 0%;
+    }
+    to {
+      background-position: 100% 100%;
+    }
+  }
+    

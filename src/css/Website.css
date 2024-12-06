@@ -1,0 +1,68 @@
+#Website{
+    
+    
+}
+#Website h1{
+    text-align: center;
+    font-size: 50px !important;
+    font-weight: bold !important;
+}
+#Website .row{
+    margin-top:60px;
+}
+#Website .col{
+    text-align: center;
+}
+#Website h2{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 70px;
+}
+#Website p{
+    font-size: 18px;
+}
+#Website Img{
+    border-radius: 35px;
+}
+#Website .static{
+    margin-top: 100px;
+}
+#Website .static p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+
+.service-section {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .toggle-button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .details {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+    overflow: hidden;
+  }
+  
+
